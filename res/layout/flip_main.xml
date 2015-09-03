@@ -2,16 +2,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="@drawable/fond_motif">
  	
-    <TextView
+    <!-- <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right|top"
         android:text="du 10 Juillet au 16 Aout 2014"
-         />
+         /> -->
+         
+    <com.facebook.login.widget.LoginButton
+	    android:id="@+id/login_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginBottom="30dp" />
+   <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+     <Button android:visibility="gone"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/actionbar_background"
+        android:text="@string/autourdemoi" />
+
+    <Button android:visibility="gone"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/actionbar_background"
+        android:text="@string/mescriteres" />
     
-    <ViewFlipper
+    <ViewFlipper android:visibility="gone"
         android:id="@+id/flipper1"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"

@@ -16,7 +16,6 @@ import java.util.concurrent.ExecutionException;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.params.ClientPNames;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -178,7 +177,7 @@ public class FindPhotoFragment extends Fragment {
 		return rowItems;
 	}
 	public void setRowItems(List<RowItem> rowItems) {
-		this.rowItems = rowItems;
+		FindPhotoFragment.rowItems = rowItems;
 	}
 	
 	private static void fixClassLoaderIssue()

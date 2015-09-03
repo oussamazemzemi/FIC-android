@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>FIC</name>
+	<name>RH</name>
 	<comment></comment>
 	<projects>
+		<project>facebook</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

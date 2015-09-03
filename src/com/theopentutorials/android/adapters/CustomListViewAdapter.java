@@ -5,7 +5,6 @@ import info.androidhive.slidingmenu.R;
 import java.util.List;
 
 import com.theopentutorials.android.beans.RowItem;
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

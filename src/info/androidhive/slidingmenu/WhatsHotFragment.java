@@ -171,7 +171,7 @@ public class WhatsHotFragment extends Fragment {
 	}
 	
 	public void setRowItems(List<RowItem> rowItems) {
-		this.rowItems = rowItems;
+		WhatsHotFragment.rowItems = rowItems;
 	}
 	
 	private static void fixClassLoaderIssue()

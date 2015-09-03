@@ -17,7 +17,7 @@
 
     <!-- ActionBar styles -->
     <style name="MyActionBar"
-           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
         <item name="android:background">@drawable/actionbar_background</item>
     </style>
 

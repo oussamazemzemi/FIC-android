@@ -2,21 +2,28 @@
 <resources>
 
     <string name="image">Thumbnail</string>
-    <string name="app_name">Festival international de Carthage</string>
+    <string name="app_name">Rest O Hal</string>
     <string name="action_settings">À propos</string>
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="creator">SelfiTech</string>
+    <string name="autourdemoi">Autour de moi</string>
+    <string name="mescriteres">Mes critéres</string>
+    <string name="facebook_app_id">743027785843954</string>
+    <string name="hello_user">Bonjour %1$s!</string>
+    <string name="cancelled">Annuler</string>
+    <string name="permission_not_granted">Erreur permissions.</string>
+    <string name="ok">OK</string>
     
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
         <item >Accueil</item>
-        <item >Programmes</item>
-        <item >Photos</item>
-        <item >Videos</item>
-        <item >Historique</item>
-        <item >À la une</item>
+        <item >Recherche par Nom</item>
+        <item >Se connecter</item>
+        <item >Suggérer un restaurant</item>
+        <item >Nous contacter</item>
+        <item >A propos</item>
         <item >Access site Web</item>
     </string-array>
     
